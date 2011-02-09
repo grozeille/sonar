@@ -26,7 +26,6 @@ import org.sonar.api.resources.Resource;
 import org.sonar.api.web.*;
 import org.sonar.plugins.design.ui.dependencies.client.DependenciesTab;
 
-@ResourceLanguage({Java.KEY, "web"}) // 'web' is a temporary workaround. See http://sonar-dev.787459.n3.nabble.com/sonar-dev-Dependencies-in-Web-Plugin-td822980.html#a822980
 @ResourceQualifier({Resource.QUALIFIER_FILE, Resource.QUALIFIER_CLASS, Resource.QUALIFIER_PACKAGE, Resource.QUALIFIER_PROJECT, Resource.QUALIFIER_MODULE})
 @DefaultTab(metrics={CoreMetrics.AFFERENT_COUPLINGS_KEY, CoreMetrics.EFFERENT_COUPLINGS_KEY})
 @NavigationSection({NavigationSection.RESOURCE_TAB})

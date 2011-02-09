@@ -24,7 +24,6 @@ import org.sonar.api.resources.Resource;
 import org.sonar.api.web.*;
 import org.sonar.plugins.design.ui.libraries.client.LibrariesPage;
 
-@ResourceLanguage(Java.KEY)
 @ResourceQualifier({Resource.QUALIFIER_PROJECT, Resource.QUALIFIER_MODULE})
 @NavigationSection(NavigationSection.RESOURCE)
 @UserRole(UserRole.USER)
